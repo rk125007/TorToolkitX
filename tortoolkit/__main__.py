@@ -76,6 +76,6 @@ if __name__ == "__main__":
     except:
         pass
 
-    logging.info("THE BOT IS READY TO GOOOOOOO")
+    logging.info("Iam Onlien My Master")
 
     ttkbot.run_until_disconnected()
