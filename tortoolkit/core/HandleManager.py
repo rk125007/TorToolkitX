@@ -930,7 +930,7 @@ async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
-            await client.send_message(i, "The bot is booted and is ready to use.")
+            await client.send_message(i, "Iam Online Master.")
         except Exception:
             torlog.info(f"Not found the entity {i}")
 
