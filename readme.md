@@ -1,12 +1,10 @@
-# [Join XcodersHub Group for DEMO](https://t.me/XcodersHubSupport)
-
 # TorToolkit Telegram
-So basically Tortoolkit is aimed to be the most versatile torrent leecher and Youtube-DL bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
+So basically Tortoolkit is aimed to be the most versatile torrent leecher and youtube-dl bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
 The bot gets started with minimum variables and others can be set as and when needed using the /settings.
-## Use master branch if you encounter some issues and report the same.
-## Use beta branch if you want to try latest features.
 
-## For any help join this:- [Xcodershub](https://t.me/XcodersHub)
+## Use [Alpha](https://github.com/XcodersHub/TorToolkitX/tree/alpha) branch if you want to try latest features.
+
+## For any help join this:- [Xcodershub](https://t.me/XcodersHubChat)
 
 ## Whats new
 - MegaDL added
@@ -27,6 +25,7 @@ Table of Content
 # Features
 Following are some awesome features offered by this bot:-
 - Using the best torrent client to deal with torrent : [qBittorrent](https://github.com/qbittorrent/qBittorrent)
+- Customised QBT engine with Custom Trackers
 - You can choose which files you want to download from the torrent.
 - A glorious settings menu from you can control the bot.
 - If the bot is in the group, the users have their own settings like:
@@ -256,7 +255,11 @@ Steps:-
 - `USER_CAP_ENABLE` : Work in progress
 - `USER_CAP_LIMIT` : Work in progress
 
-## **Rest Variables are not to be changed** 
+- `QBitTorrent Configurations`
+  - To modify QBT engine Preferences ... Please check `qBittorrent.conf` in root of the repo..
+
+
+## **Rest Variables are not to be changed**
 
 ## Commands
 
@@ -280,9 +283,9 @@ Steps:-
      
 
 # Credits
-[AmirulAndalib](https://github.com/AmirulAndalib) for modding
+[Yash-DK](https://github.com/yash-dk) Owner of TorToolkit Repository
 
-[Yash-DK](https://github.com/yash-dk)
+[AmirulAndalib](https://github.com/AmirulAndalib) for modding
 
 [Lonami](https://github.com/LonamiWebs/Telethon/) for awesome Telethon
 
